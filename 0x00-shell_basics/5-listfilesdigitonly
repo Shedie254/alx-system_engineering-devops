@@ -1,2 +1,2 @@
 #!/bin/bash
-.ls -la -n
+.stat -c "%A %h %U %G %s %y %n" *
